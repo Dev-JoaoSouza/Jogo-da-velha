@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <title>Projeto 4 - Jogo da Velha</title>
+    <link rel="shortcut icon" href="img/logo-site.ico" type="image/x-icon">
+    <!--CSS-->
+    <link rel="stylesheet" href="assets/css/global.css">
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="assets/css/projeto4.css">
+    <!--Meta tags-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--SEO-->
+    <meta name="author" content="João Guilherme">
+    <meta name="description" content="Jogo da velha feito com html, css e javascript é um jogo clássico e simples, jogado por duas pessoas em um tabuleiro 3x3.">
+    <meta name="keywords" content="jogo da velha, html, jogo em javascript">
+    <!--SMO-->
+    <meta property="og:title" content="Portifólio do João">
+    <meta property="og:site_name" content="João Dev">
+    <meta property="og:description" content="Jogo da velha feito com html, css e javascript é um jogo clássico e simples, jogado por duas pessoas em um tabuleiro 3x3.">
+    <meta property="og:url" content="https://joaodev.site">
+    <meta property="og:image" content="img/Projeto4.jpeg">
+    <meta property="og:image:type" content="image/jpeg">
+</head>
+<body>
+    <header>
+        <div class="head">
+            <div class="inicio">
+                <a href="#"><img class="logo" src="img/logo.svg" alt="logo do site"></a>
+                <img class="icon" src="img/menu.svg" alt="icone do menu sanduiche">
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Projetos</a></li>
+                    <li><a href="#">Sobre Mim</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <h1 class="titulo">Projeto 4 - Jogo da Velha</h1>
+        <section class="game">
+            <div class="part1">
+                <div class="buttons">
+                    <span class="btn1 active">1P VS 2P</span>
+                    <span class="btn2">1P VS PC</span>
+                </div>
+                <div class="board">
+                    <div class="cell"></div>
+                    <div class="cell"></div>
+                    <div class="cell"></div>
+                    <div class="cell"></div>
+                    <div class="cell"></div>
+                    <div class="cell"></div>
+                    <div class="cell"></div>
+                    <div class="cell"></div>
+                    <div class="cell"></div>
+                </div>
+            </div>
+            <div class="placares">
+                <div class="placar">
+                    <p>Player 1</p>
+                    <span class="win">00</span>
+                </div>
+                <div class="placar">
+                    <p>Empate</p>
+                    <span class="draw">00</span>
+                </div>
+                <div class="placar">
+                    <p class="player">Player 2</p>
+                    <span class="lose">00</span>
+                </div>
+            </div>
+        </section>
+
+        <div class="message">
+            <p class="text-message">X Venceu!</p>
+            <button class="button-message">Reiniciar!</button>
+        </div>
+    </main>
+
+    <footer>
+        <div class="logos">
+            <img src="img/logo.svg" alt="logo do site no roapé">
+            <div class="redes">
+                <a href="#" target="_blank"><img src="img/github.svg" alt="link do github"></a>
+                <a href="#" target="_blank"><img src="img/linkedin.svg" alt="link do linkedin"></a>
+            </div>
+        </div>
+        <p>Site desenvolvido por João Guilherme</p>
+        <div class="copy">
+            <img src="img/copyright.svg" alt="copyright">
+            <p>Copyright 2024 João Dev</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/menu.js"></script>
+    <script src="assets/js/proj-04.js"></script>
+</body>
+</html>
